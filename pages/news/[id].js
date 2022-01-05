@@ -46,6 +46,7 @@ const News = ({detailNews}) => {
     <Layout>
 			{/* News Slider */}
 			<div className={styles['card-news-slider']}>
+				{/* Tes Cek Hasil Data fetch */}
 				{console.log(detailNews)}
 				<Slider {...settings}>
 					{elements.map((value, index) => {
