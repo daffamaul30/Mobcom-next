@@ -4,7 +4,7 @@ import styles from './CardIklan.module.css';
 const CardIklan = ({name, city, imgCar, title, price, year, km, transmission, bbm}) => {
   return (
     <div className={styles['card-mobil-dijual']}>
-      <Link href='/news'>
+      <Link href='/'>
         <a className={styles['box-mobil-dijual-container']}>
           <div className={styles['zoomOut-mobil-dijual']}>
             <div style={{position: 'relative'}}>
